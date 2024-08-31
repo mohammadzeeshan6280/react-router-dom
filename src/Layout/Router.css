@@ -1,0 +1,15 @@
+.active{
+    color: red;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
