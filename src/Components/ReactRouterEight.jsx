@@ -9,7 +9,8 @@ import NotFoundPage from "../Page/NotFoundPage";
 // import  { getMoviesData } from "../Api/GetApiData";
 import Movies from "../Page/Movies";
 import AppLayoutOutletSecond from "../Layout/AppLayoutOutletSecond";
-import { getMoviesDatas } from "../Api/GetApiDataSecond";
+// import { getMoviesDatas } from "../Api/GetApiDataSecond";
+import { getMoviesData } from "../Api/GetApiData";
 
 function ReactRouterEight() {
     const router = createBrowserRouter([   
@@ -43,8 +44,8 @@ function ReactRouterEight() {
             {
               path: "/movies",
               element: <Movies />,
-              // loader : getMoviesData,
-              loader : getMoviesDatas,
+              loader : getMoviesData,
+              // loader : getMoviesDatas,
 
             },
           ],

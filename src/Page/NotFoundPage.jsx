@@ -20,6 +20,7 @@ function NotFoundPage() {
 
   const error = useRouteError();
   const navigate = useNavigate();
+  console.log(error)
 
   const handleGoBack = () => {
     // navigate("/");

@@ -17,7 +17,7 @@ function ReactRouterThree() {
 
     {
       path: "/",
-    //   element: <AppLayout />,
+      // element: <AppLayout />,
       element: <AppLayoutOutlet />,
       children: [
         {

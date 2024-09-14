@@ -26,7 +26,7 @@ function NavbarSecond() {
         <li className="nav-item">
           <NavLink className="nav-link" to="/about" style={(isActive) => {
             return {
-                color : isActive ? "blue" : "pink"
+                color : isActive ? "brown" : "pink"
             }
           }}>About</NavLink>
         </li>
